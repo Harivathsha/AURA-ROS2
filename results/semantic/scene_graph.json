@@ -1,0 +1,310 @@
+{
+  "frame_id": "aura_slam_map",
+  "stamp_ns": 318300000000,
+  "pose_source": "RTAB-Map optimized keyframe poses",
+  "objects": [
+    {
+      "id": 1,
+      "label": "chair_1",
+      "class": "chair",
+      "colour_rgb": [
+        242,
+        133,
+        53
+      ],
+      "position_m": [
+        4.319801330566406,
+        0.7010560035705566,
+        0.2736612856388092
+      ],
+      "confidence": 0.870977229421789,
+      "observations": 55,
+      "first_stamp_ns": 150300000000,
+      "last_stamp_ns": 239700000000,
+      "visible_bounds_m": {
+        "min": [
+          3.947234869003296,
+          0.35981354117393494,
+          0.001460567582398653
+        ],
+        "max": [
+          4.923779010772705,
+          1.210735559463501,
+          0.7874240279197693
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "label": "potted_plant_2",
+      "class": "potted plant",
+      "colour_rgb": [
+        78,
+        53,
+        242
+      ],
+      "position_m": [
+        2.301426410675049,
+        1.6241660118103027,
+        0.5313112735748291
+      ],
+      "confidence": 0.8280928825077257,
+      "observations": 38,
+      "first_stamp_ns": 150300000000,
+      "last_stamp_ns": 212100000000,
+      "visible_bounds_m": {
+        "min": [
+          2.0855207443237305,
+          1.4677748680114746,
+          0.024875963106751442
+        ],
+        "max": [
+          2.5255088806152344,
+          1.8395894765853882,
+          0.7324414253234863
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "label": "potted_plant_4",
+      "class": "potted plant",
+      "colour_rgb": [
+        242,
+        53,
+        139
+      ],
+      "position_m": [
+        3.693847417831421,
+        3.929591417312622,
+        0.5146937370300293
+      ],
+      "confidence": 0.8518578131993612,
+      "observations": 15,
+      "first_stamp_ns": 230400000000,
+      "last_stamp_ns": 256700000000,
+      "visible_bounds_m": {
+        "min": [
+          3.446300745010376,
+          3.7277870178222656,
+          0.023213358595967293
+        ],
+        "max": [
+          3.9689793586730957,
+          4.2345404624938965,
+          0.7368924021720886
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "label": "sports_ball_5",
+      "class": "sports ball",
+      "colour_rgb": [
+        53,
+        194,
+        242
+      ],
+      "position_m": [
+        1.8554059267044067,
+        3.7974348068237305,
+        0.1822735071182251
+      ],
+      "confidence": 0.7182342750685555,
+      "observations": 7,
+      "first_stamp_ns": 255600000000,
+      "last_stamp_ns": 264200000000,
+      "visible_bounds_m": {
+        "min": [
+          1.7070245742797852,
+          3.7160704135894775,
+          -0.0002160559524782002
+        ],
+        "max": [
+          1.9770832061767578,
+          3.962336778640747,
+          0.35024887323379517
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "label": "sports_ball_6",
+      "class": "sports ball",
+      "colour_rgb": [
+        242,
+        235,
+        53
+      ],
+      "position_m": [
+        1.2627761363983154,
+        0.6002741456031799,
+        0.19161534309387207
+      ],
+      "confidence": 0.4722113087773323,
+      "observations": 4,
+      "first_stamp_ns": 292900000000,
+      "last_stamp_ns": 301500000000,
+      "visible_bounds_m": {
+        "min": [
+          1.0865280628204346,
+          0.5159258246421814,
+          0.024334333837032318
+        ],
+        "max": [
+          1.4178355932235718,
+          0.6754764914512634,
+          0.3493271470069885
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": 2,
+      "relation": "in_front_of",
+      "directed": true,
+      "distance_xy_m": 2.2194525010819284
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "relation": "left_of",
+      "directed": true,
+      "distance_xy_m": 2.2194525010819284
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "relation": "in_front_of",
+      "directed": true,
+      "distance_xy_m": 2.693292141878764
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "relation": "left_of",
+      "directed": true,
+      "distance_xy_m": 2.693292141878764
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "relation": "in_front_of",
+      "directed": true,
+      "distance_xy_m": 2.2185651956840307
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "relation": "left_of",
+      "directed": true,
+      "distance_xy_m": 2.2185651956840307
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "relation": "near",
+      "directed": false,
+      "distance_xy_m": 1.458474869835006
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "relation": "in_front_of",
+      "directed": true,
+      "distance_xy_m": 1.458474869835006
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "relation": "left_of",
+      "directed": true,
+      "distance_xy_m": 1.458474869835006
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "relation": "near",
+      "directed": false,
+      "distance_xy_m": 1.8431854182347558
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "relation": "in_front_of",
+      "directed": true,
+      "distance_xy_m": 1.8431854182347558
+    }
+  ],
+  "statistics": {
+    "retained_frames": 101,
+    "candidate_objects": 7,
+    "optimized_keyframes": 35,
+    "graph_updates": 156,
+    "rebuilds": 0
+  },
+  "definitions": {
+    "position": "median of observed surfaces; not a CAD centre",
+    "bounds": "2nd/98th percentiles of observed surfaces",
+    "near": "XY centre distance <= 2.0 m",
+    "left_of": "greater fixed-map Y by >= 0.3 m",
+    "in_front_of": "greater fixed-map X by >= 0.3 m",
+    "directional_range": 3.0,
+    "axes": "fixed RTAB-Map frame, not the current camera viewpoint"
+  },
+  "configuration": {
+    "rgbd_topic": "/aura_slam/rgbd_image",
+    "odom_topic": "/aura_slam/odom",
+    "map_data_topic": "/aura_slam/mapData",
+    "map_graph_topic": "/aura_slam/mapGraph",
+    "info_topic": "/aura_slam/info",
+    "map_frame": "aura_slam_map",
+    "base_frame": "aura_slam_base",
+    "optical_frame": "aura_slam_optical",
+    "model_path": "~/ai_envs/project/c++_project/models/yolo11s-seg.pt",
+    "output_dir": "~/ai_envs/project/c++_project/semantic_slam_results",
+    "device": "cpu",
+    "image_size": 640,
+    "torch_threads": 3,
+    "confidence": 0.35,
+    "process_hz": 0.75,
+    "sync_tolerance": 0.025,
+    "pose_max_gap": 0.15,
+    "min_range": 0.2,
+    "max_range": 6.0,
+    "point_stride": 1,
+    "background_stride": 6,
+    "mask_erode_pixels": 1,
+    "depth_band": 0.8,
+    "min_object_points": 25,
+    "voxel_size": 0.04,
+    "observation_voxel_size": 0.025,
+    "association_distance": 0.75,
+    "surface_support_radius": 0.18,
+    "min_observations": 3,
+    "max_objects": 60,
+    "max_stored_frames": 600,
+    "max_points_per_object": 5000,
+    "max_background_points": 60000,
+    "max_object_points_per_observation": 1500,
+    "max_background_points_per_frame": 1800,
+    "max_anchor_distance": 1.5,
+    "max_anchor_angle": 1.25,
+    "min_map_height": -0.1,
+    "max_map_height": 3.0,
+    "near_distance": 2.0,
+    "relation_distance": 3.0,
+    "axis_margin": 0.3,
+    "autosave_seconds": 45.0,
+    "allowed_classes": [
+      "sports ball",
+      "potted plant",
+      "chair"
+    ]
+  },
+  "processed_frames": 101,
+  "reported_loop_closures": 0,
+  "odometry_parent_frame": "aura_odom"
+}

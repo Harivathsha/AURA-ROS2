@@ -1,0 +1,48 @@
+aura_semantic_slam:
+  ros__parameters:
+    use_sim_time: true
+    rgbd_topic: /aura_slam/rgbd_image
+    odom_topic: /aura_slam/odom
+    map_data_topic: /aura_slam/mapData
+    map_graph_topic: /aura_slam/mapGraph
+    info_topic: /aura_slam/info
+    map_frame: aura_slam_map
+    base_frame: aura_slam_base
+    optical_frame: aura_slam_optical
+    model_path: "~/ai_envs/project/c++_project/models/yolo11s-seg.pt"
+    output_dir: "~/ai_envs/project/c++_project/semantic_slam_results"
+    device: cpu
+    torch_threads: 3
+    image_size: 640
+    confidence: 0.35
+    allowed_classes: [sports ball, potted plant, chair]
+    # Inference cap is wall-time; simulation timestamps are kept for geometry.
+    process_hz: 0.75
+    sync_tolerance: 0.025
+    pose_max_gap: 0.15
+    point_stride: 1
+    background_stride: 6
+    mask_erode_pixels: 1
+    min_range: 0.20
+    max_range: 6.0
+    depth_band: 0.8
+    min_object_points: 25
+    min_map_height: -0.10
+    max_map_height: 3.0
+    voxel_size: 0.04
+    observation_voxel_size: 0.025
+    association_distance: 0.75
+    surface_support_radius: 0.18
+    min_observations: 3
+    max_objects: 60
+    max_stored_frames: 600
+    max_points_per_object: 5000
+    max_background_points: 60000
+    max_object_points_per_observation: 1500
+    max_background_points_per_frame: 1800
+    max_anchor_distance: 1.5
+    max_anchor_angle: 1.25
+    near_distance: 2.0
+    relation_distance: 3.0
+    axis_margin: 0.30
+    autosave_seconds: 45.0

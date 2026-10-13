@@ -1,0 +1,24 @@
+{
+  "samples": 7674,
+  "duration_s": 153.46,
+  "reference_origin": {
+    "x": -2.999982495920764,
+    "y": -2.199999999937031,
+    "yaw_rad": 9.295076595980303e-11
+  },
+  "wheel": {
+    "position_rmse_m": 0.013175165940812306,
+    "heading_rmse_deg": 0.9117044791878731,
+    "final_position_error_m": 0.013833205536985102,
+    "final_heading_error_deg": 1.0539914937351775,
+    "final_distance_from_start_m": 2.0339215033100317
+  },
+  "fused": {
+    "position_rmse_m": 0.0057034970241569,
+    "heading_rmse_deg": 0.4452367208125987,
+    "final_position_error_m": 0.0046925320882079645,
+    "final_heading_error_deg": 0.5096805145190694,
+    "final_distance_from_start_m": 2.0274689081316257
+  },
+  "reference_final_distance_from_start_m": 2.0228291616199607
+}

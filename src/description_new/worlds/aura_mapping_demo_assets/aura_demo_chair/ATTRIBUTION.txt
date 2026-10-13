@@ -1,0 +1,4 @@
+Chair by Cole Biesemeyer, OpenRobotics.
+Source: https://fuel.gazebosim.org/1.0/OpenRobotics/models/Chair (version 3).
+License: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+Changes: local resource URI; static placement in AURA test world.

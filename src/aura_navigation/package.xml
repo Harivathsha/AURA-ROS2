@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>aura_navigation</name>
+  <version>0.2.0</version>
+  <description>Beginner-friendly eight-direction A* global planner for Nav2 Jazzy.</description>
+  <maintainer email="harivathsharamesh@gmail.com">Harivathsha</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>nav2_core</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>pluginlib</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

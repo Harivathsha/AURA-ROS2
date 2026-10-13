@@ -1,0 +1,7 @@
+<library path="aura_astar_planner">
+  <class name="aura_navigation::AStarPlanner"
+         type="aura_navigation::AStarPlanner"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>Eight-direction A* with octile distance and diagonal corner checks.</description>
+  </class>
+</library>

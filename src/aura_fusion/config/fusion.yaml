@@ -1,0 +1,15 @@
+aura_fusion:
+  ros__parameters:
+    use_sim_time: true
+    wheel_radius: 0.0325
+    wheel_separation: 0.21
+    wheel_sample_hz: 50.0
+    # These are starting assumptions, not calibrated simulator noise statistics.
+    left_wheel_std: 0.10         # rad/s
+    right_wheel_std: 0.10        # rad/s
+    gyro_std: 0.02              # rad/s, used when covariance is unknown
+    speed_variance_per_second: 0.04
+    turn_variance_per_second: 0.25
+    position_variance_per_second: 0.000001
+    reorder_delay: 0.03         # seconds of measurement-time buffering
+    max_gap: 0.5                # longer gaps start a new local trajectory

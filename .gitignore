@@ -1,0 +1,41 @@
+# ROS workspace outputs
+/build/
+/install/
+/log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Working run directories; selected results are copied into results/ for GitHub.
+/fusion_results_live/
+/aura_fusion_results/
+/mapping_results/
+/semantic_slam_results/
+/rtabmap_results/
+/demo_results/
+
+# Large reproducible / release assets
+*.pt
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+/media/videos/*.mp4
+*.bag
+*.mcap
+*.zip
+
+# Local exercise executable and editor backups
+/src/aura_navigation/src/aura_wheel_math_todo
+*.before_rviz_fix
+*.bak
+*.tmp
+
+# Generated upload staging / local backup directories
+/github_stage/
+/prep_backups/
+
+# Desktop metadata
+.DS_Store
